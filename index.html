@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="Scripts/script.js"></script>
+  <link rel="stylesheet" href="Estilos/style.css">
+</head>
+<body>
+
+  <header>
+    <h>Verificador de idade online</h>
+  </header>
+  
+  <main>
+    
+  <p>
+    <label for="ano">Data de nascimento:</label> 
+    <input type="number" name="ano" id="ano" minlength="4">
+  </p>
+
+  <p>
+    Sexo:
+    <input type="radio" name="sex" id="masculino"checked> 
+    <label for="masculino">Masculino</label>
+
+    <input type="radio" name="sex" id="feminino">         
+    <label for="feminino">Feminino</label>
+  </p>
+
+  <input type="button" name="verificar" id="verificar" value="Verificar" onclick="calcular()">
+
+  <div id="resultado">
+    <p id="restxt">Resultado</p>
+    <img src="null" id="imagem">
+  </div>
+
+  </main>
+
+  <footer>
+   <p>Site criado por Rudney de oliveira Bueno</p>
+  </footer>
+</body>
+</html>
